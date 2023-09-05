@@ -1,0 +1,16 @@
+[options]
+remove_duplicates = true
+
+[general]
+default_icon = ""
+wm_property = "class"
+
+[aliases]
+firefox = "Firefox"
+whatsapp = "Whatsapp"
+kitty = "Kitty"
+
+[icons]
+firefox = ""
+kitty = ""
+Whatsapp = ""

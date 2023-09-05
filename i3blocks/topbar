@@ -1,0 +1,45 @@
+# i3blocks configuration file
+#
+# The i3blocks man page describes the usage of the binary,
+# and its website describes the configuration:
+#
+#     https://vivien.github.io/i3blocks
+
+
+# Global properties
+separator=true
+separator_block_width=15
+align=left
+
+[currentWindow]
+command=/home/dmunoz/.config/i3blocks/i3blocks-contrib/i3-focusedwindow/i3-focusedwindow
+interval=persist
+min_width=1000
+color=#888888
+align=center
+
+[arch-updates]
+command=/home/dmunoz/.config/i3blocks/i3blocks-contrib/arch-update/arch-update
+interval=once
+signal=3600
+markup=pango
+LABEL= 
+AUR=true
+
+[volume]
+command=/home/dmunoz/.config/i3blocks/i3blocks-contrib/volume/volume
+interval=once
+signal=10
+label= 
+
+[rofi-wttr]
+command=/home/dmunoz/.config/i3blocks/i3blocks-contrib/rofi-wttr/rofi-wttr
+interval=3600
+BAR_POSITION=top
+LOCATION=Peñalolen
+
+[calendar]
+command=/home/dmunoz/.config/i3blocks/i3blocks-contrib/calendar/calendar
+interval=1
+markup=pango
+LABEL= 
