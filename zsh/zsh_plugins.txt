@@ -1,0 +1,6 @@
+zdharma/fast-syntax-highlighting
+zsh-users/zsh-autosuggestions
+ohmyzsh/ohmyzsh path:plugins/tmux
+zsh-users/zsh-history-substring-search
+romkatv/powerlevel10k
+mattmc3/zshrc.d
