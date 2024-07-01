@@ -4,7 +4,7 @@
 path=($HOME'/.cargo/bin' $path)
 
 # pip
-path=($HOME'/.local.bin' $path)
+path=($HOME'/.local/bin' $path)
 
 # Propagar
 export PATH
